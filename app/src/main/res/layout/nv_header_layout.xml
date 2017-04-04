@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_head_bg"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@drawable/header_bg1"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true">
+
+
+    <TextView
+        android:id="@+id/tv_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:text="540761047@qq.com"
+        android:textColor="#FFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_about_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_mail"
+        android:layout_marginLeft="10dp"
+        android:text="刘瑜权"
+        android:textColor="#FFF"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>
